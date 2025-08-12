@@ -1,24 +1,24 @@
 package com.thetestingacademy;
 
-public class APITest004BuilderPatternDesignPattern {
-   public APITest004BuilderPatternDesignPattern step1(){
+public class APITest004BuilderDesignPattern {
+   public APITest004BuilderDesignPattern step1(){
        System.out.println("Step1 is started");
        System.out.println("Step1 is end");
        return this;
    }
-    public APITest004BuilderPatternDesignPattern step2(){
+    public APITest004BuilderDesignPattern step2(){
         System.out.println("Step2 is started");
         System.out.println("Step2 is end");
         return this;
     }
-    public APITest004BuilderPatternDesignPattern step3(String name){
+    public APITest004BuilderDesignPattern step3(String name){
         System.out.println("Step3 is started");
         System.out.println("Step3 is end");
         return this;
     }
 
     public static void main(String[] args) {
-        APITest004BuilderPatternDesignPattern bp =new APITest004BuilderPatternDesignPattern();
+        APITest004BuilderDesignPattern bp =new APITest004BuilderDesignPattern();
         bp.step1().step2().step3("Suraj");
     }
 }

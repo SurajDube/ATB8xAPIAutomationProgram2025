@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.sampleCheck;
 
 public class APITest004BuilderDesignPattern {
    public APITest004BuilderDesignPattern step1(){
@@ -11,7 +11,7 @@ public class APITest004BuilderDesignPattern {
         System.out.println("Step2 is end");
         return this;
     }
-    public APITest004BuilderDesignPattern step3(String name){
+    public APITest004BuilderDesignPattern step3 (String name){
         System.out.println("Step3 is started");
         System.out.println("Step3 is end");
         return this;

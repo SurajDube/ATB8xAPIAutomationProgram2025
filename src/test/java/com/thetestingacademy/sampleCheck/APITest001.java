@@ -1,6 +1,4 @@
-package com.thetestingacademy;
-
-import io.restassured.RestAssured;
+package com.thetestingacademy.sampleCheck;
 
 public class APITest001 {
     public static void main(String[] args) {

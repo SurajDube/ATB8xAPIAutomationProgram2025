@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="C:/Users/SURAJ DUBEY/IdeaProjects/ATB8xAPIAutomationProgram2025">
+        <classes>
+            <class name="com.thetestingacademy.RestAssuredBasics.GET.APITesting005_BDDStyleGET">
+
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.sampleCheck;
 
 public class APITest003NonDesignPattern {
     public void step1() {

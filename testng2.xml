@@ -3,8 +3,7 @@
 <suite name="All Test Suite">
     <test name="C:/Users/SURAJ DUBEY/IdeaProjects/ATB8xAPIAutomationProgram2025">
         <classes>
-            <class name="com.thetestingacademy.RestAssuredBasics.GET.APITesting006_NonBDDStyle">
-
+            <class name="com.thetestingacademy.RestAssuredBasics.DELETE.APITesting012_Delete_NonBDDStyle">
             </class>
         </classes>
     </test>

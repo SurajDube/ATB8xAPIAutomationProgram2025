@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class APITesting009_POST_NonBDDStyle {
+public class APITesting008_POST_NonBDDStyle {
     RequestSpecification rs = RestAssured.given();
 
     @Description("Verify the POST Request : Non BDD style")

@@ -8,7 +8,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class APITesting012_Delete_NonBDDStyle {
+public class APITesting011_Delete_NonBDDStyle {
     RequestSpecification requestSpecification = RestAssured.given();
 
     @Description("Verify the DELETE Request : Non BDD style")

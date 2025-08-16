@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="C:/Users/SURAJ DUBEY/IdeaProjects/ATB8xAPIAutomationProgram2025">
+    <test verbose="2" preserve-order="true" name="ATB8xAPIAutomationPrograms">
+
         <classes>
-            <class name="com.thetestingacademy.Integration.APITesting012_TestCaseIntegration">
+            <class name="com.thetestingacademy.testNGExamples.APITesting019_TestNG_AlwaysRun">
             </class>
         </classes>
     </test>

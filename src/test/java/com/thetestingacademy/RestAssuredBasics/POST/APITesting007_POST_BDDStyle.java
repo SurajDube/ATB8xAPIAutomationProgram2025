@@ -5,7 +5,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
-public class APITesting008_POST_BDDStyle {
+public class APITesting007_POST_BDDStyle {
     @Description("Verify the POST Request : BDD style")
     @Test
     public void test_POST_BDDStyle() {

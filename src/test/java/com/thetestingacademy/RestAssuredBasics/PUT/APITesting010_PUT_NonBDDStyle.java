@@ -8,7 +8,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class APITesting011_PUT_NonBDDStyle {
+public class APITesting010_PUT_NonBDDStyle {
     RequestSpecification requestSpecification = RestAssured.given();
 
     @Description("Verify the PUT Request : Non BDD style")

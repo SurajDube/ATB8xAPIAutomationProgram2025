@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class APITesting013_TestCaseIntegration {
+public class APITesting012_TestCaseIntegration {
 
     RequestSpecification requestSpecification;
     Response response;

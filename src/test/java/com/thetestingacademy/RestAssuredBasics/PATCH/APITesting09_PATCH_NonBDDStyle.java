@@ -9,7 +9,7 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
 
-public class APITesting010_PATCH_NonBDDStyle {
+public class APITesting09_PATCH_NonBDDStyle {
     RequestSpecification requestSpecification = RestAssured.given();
 
     @Description("Verify the PUT Request : Non BDD style")

@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
     <test name="C:/Users/SURAJ DUBEY/IdeaProjects/ATB8xAPIAutomationProgram2025">
         <classes>
-            <class name="com.thetestingacademy.RestAssuredBasics.POST.APITesting008_POST_BDDStyle">
+            <class name="com.thetestingacademy.RestAssuredBasics.POST.APITesting007_POST_BDDStyle">
             </class>
-            <class name="com.thetestingacademy.RestAssuredBasics.POST.APITesting009_POST_NonBDDStyle">
+            <class name="com.thetestingacademy.RestAssuredBasics.POST.APITesting008_POST_NonBDDStyle">
             </class>
         </classes>
     </test>

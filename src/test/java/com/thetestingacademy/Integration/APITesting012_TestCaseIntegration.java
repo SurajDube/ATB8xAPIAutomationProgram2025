@@ -7,6 +7,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static  org.assertj.core.api.Assertions.*;
 
 public class APITesting012_TestCaseIntegration {
 
@@ -36,6 +37,8 @@ public class APITesting012_TestCaseIntegration {
 
         token = response.jsonPath().getString("token");
         System.out.println(token);
+
+        assertThat(token).isAlphanumeric().isNotEmpty().isNotNull().isNotBlank();
         return token;
     }
 
@@ -61,6 +64,11 @@ public class APITesting012_TestCaseIntegration {
         validateResponse.statusCode(200);
         bookingID = response.jsonPath().getString("bookingid");
         System.out.println(bookingID);
+
+        assertThat(bookingID).isNotEmpty().isNotNull().isNotBlank();
+
+
+
         return bookingID;
     }
 

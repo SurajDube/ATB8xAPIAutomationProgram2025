@@ -49,7 +49,7 @@ public class APITesting022_AssertionsReal {
         // 3. AssertJ Assertion
         validateResponse.body("booking.firstname", Matchers.equalTo("robert"));
 
-// how to extract booking id
+        // how to extract booking id
         bookingId = response.then().extract().path("bookingid");
         String firstname = response.then().extract().path("bookingid.firstname");
         Assert.assertNotNull(bookingId);
